@@ -1,0 +1,26 @@
+{
+  "name": "reg-exp-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "sandbox": "node ./practice/sandbox.js",
+    "watch": "watch \"npm run sandbox\" practice"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-jest": "^23.6.0",
+    "babel-plugin-dynamic-import-node": "^2.1.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "jest": "^23.6.0",
+    "watch": "^1.0.2"
+  }
+}

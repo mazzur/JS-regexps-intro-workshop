@@ -1,0 +1,10 @@
+{
+  "presets": ["stage-2", "env"],
+  "env": {
+    "test": {
+      "plugins": [
+        "babel-plugin-dynamic-import-node"
+      ]
+    }
+  }
+}
