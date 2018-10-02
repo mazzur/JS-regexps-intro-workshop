@@ -14,14 +14,14 @@ describe('numbersOnly', () => {
   });
 
   test('for "12321foo" should return false', () => {
-    expect(numbersOnly('foo')).toBe(false);
+    expect(numbersOnly('12321foo')).toBe(false);
   });
 
   test('for "123.21" should return false', () => {
-    expect(numbersOnly('foo')).toBe(false);
+    expect(numbersOnly('123.21')).toBe(false);
   });
 
   test('for "123-21" should return false', () => {
-    expect(numbersOnly('foo')).toBe(false);
+    expect(numbersOnly('123-21')).toBe(false);
   });
 });
